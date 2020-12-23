@@ -51,10 +51,10 @@ import {
                 return (
                     <div className="container ">
                         <div className="row">
-                            <div className="col-12 col-md-5 mt-3">
+                            <div className="col-12 col-md-5 mt-3 mb-3">
                                 <RenderDish dish={props.dish} />
                             </div>
-                            <div className="col-12 col-md-5 mt-3">
+                            <div className="col-12 col-md-5 mt-3 mb-3">
                                 <RenderComments comments={props.dish.comments}/>
                             </div>
                         </div>
